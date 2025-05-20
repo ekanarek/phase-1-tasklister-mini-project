@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const savedTask = document.createElement("li");
         savedTask.textContent = obj.content;
         taskList.append(savedTask);
-      })
+      });
     });
 
   document
